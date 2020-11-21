@@ -14,9 +14,10 @@ inline int a() {
 int main() {
 	//generates random numbers
 	srand(time(0));
-
+        
+	//loop for printing more then 1 row of numbers
 	for (int i = 0; i < 5; ++i) {
-	 cout << a() << "," << a() << "," << a() << "," << a() << " ";
+	 cout << a() << "," << a() << "," << a() << "," << a() << " " << endl;
 	}
 }
 
